@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
+
+body {
+    background-color:rgb(250, 244, 248);
+    font-family: 'Josefin Sans';
+    
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color: black;
+    font-size: 100%;
+}
+nav a {
+ 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    margin-left: 120px ;
+    font-family: 'Josefin Sans';
+    font-size: 50px; 
+    font-weight:  300px; 
+    -webkit-text-fill-color: red;
+}
+
+#design {
+    margin-top:  350px;
+    margin-left: 120px;
+    font-family: 'Josefin Sans';
+    font-size: 170px;
+    font-weight: 700;
+    text-align: left;
+} 
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans' ;
+    font-size: 320px;
+    font-weight:  700; 
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 7px red;
+    
+}
+
+/*
+h1:hover {background-color:red;} */
+
+p {
+   
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 80px;
+    -webkit-text-fill-color: red;
+}
+img{
+    margin-top:  80px;
+    margin-left: 120px;
+    align-items: center;
+}
+#parrafo {
+    display: flex;
+ align-items: flex-end;
+ margin-top: 0px;
+    margin-left: 600px;
+    margin-right: 120px;
+    text-align: left;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 40px;
+    -webkit-text-fill-color: black;
+  
+}
+/*pseudoclase hace referencia a un elemento
+cuando le paso el mouse por arriba*/
+
+a {
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-top: 1000px;
+margin-left: 450px ;
+font-size:40px;
+color: rgb(255, 0, 0);
+text-decoration:none;
+
+/*el valor none, quita la decoración de texto, por ejemplo el subrayado*/
+
+}
